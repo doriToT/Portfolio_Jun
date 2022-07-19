@@ -13,7 +13,7 @@ const DWORD KEY_ESCAPE = 512;
 
 const int BUFFER_OVER = 1;
 
-const int MAX_SIZE = 5;
+const int MAX_SIZE = 2;
 
 const SHORT ConsoleWidthSize = 160;
 const SHORT ConsoleHeightSize = 40;

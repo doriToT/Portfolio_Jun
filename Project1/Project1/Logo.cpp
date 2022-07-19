@@ -7,6 +7,8 @@
 #include "Player.h"
 #include "Enemy.h"
 
+#include "ObjectFactory.h"
+
 Logo::Logo() { }
 
 Logo::~Logo() {}

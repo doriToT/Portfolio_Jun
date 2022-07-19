@@ -73,6 +73,15 @@
     <Filter Include="소스 파일\01.Scene\Stage">
       <UniqueIdentifier>{4abbf9e1-0e1f-44a9-817f-4f2601642412}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\02.Object\BackGround">
+      <UniqueIdentifier>{cd388499-7760-4e69-9d4f-24b275c466ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\02.Object\Cloud">
+      <UniqueIdentifier>{9ceee43e-3ea1-4a0d-9adf-097371e7935f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\03.UserInterface\ScrollBox">
+      <UniqueIdentifier>{e74b2894-d313-491d-a7eb-09495338b974}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Contents.h">
@@ -132,6 +141,21 @@
     <ClInclude Include="ObjectManager.h">
       <Filter>소스 파일\99.Manager\ObjectManager</Filter>
     </ClInclude>
+    <ClInclude Include="UserInterface.h">
+      <Filter>소스 파일\03.UserInterface</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectFactory.h">
+      <Filter>소스 파일\99.Manager\ObjectFactory</Filter>
+    </ClInclude>
+    <ClInclude Include="ScrollBox.h">
+      <Filter>소스 파일\03.UserInterface\ScrollBox</Filter>
+    </ClInclude>
+    <ClInclude Include="Cloud.h">
+      <Filter>소스 파일\02.Object\Cloud</Filter>
+    </ClInclude>
+    <ClInclude Include="BackGround.h">
+      <Filter>소스 파일\02.Object\BackGround</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="MainUpdate.cpp">
@@ -169,6 +193,21 @@
     </ClCompile>
     <ClCompile Include="ObjectManager.cpp">
       <Filter>소스 파일\99.Manager\ObjectManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="UserInterface.cpp">
+      <Filter>소스 파일\03.UserInterface</Filter>
+    </ClCompile>
+    <ClCompile Include="ScrollBox.cpp">
+      <Filter>소스 파일\03.UserInterface\ScrollBox</Filter>
+    </ClCompile>
+    <ClCompile Include="Cloud.cpp">
+      <Filter>소스 파일\02.Object\Cloud</Filter>
+    </ClCompile>
+    <ClCompile Include="BackGround.cpp">
+      <Filter>소스 파일\02.Object\BackGround</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
