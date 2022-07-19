@@ -25,6 +25,7 @@ void Player::Initialize()
 	TransInfo.Rotation = Vector3(0.0f, 0.0f);
 	TransInfo.Scale = Vector3(2.0f, 2.0f);
 	
+	Color = 15;
 }
 
 int Player::Update()
@@ -55,14 +56,8 @@ int Player::Update()
 void Player::Render()
 {
 
-	
-		for (int i = 0; i < MAX_SIZE; ++i)
-	{
-		CursorManager::Draw(
-			TransInfo.Position.x - (TransInfo.Scale.x * 0.5f),
-			TransInfo.Position.y - (TransInfo.Scale.x * 0.5f) + i,
-			Buffer[i]);
-	}
+	CursorManager::GetInstance()->WriteBuffer(
+		TransInfo.Position, (char*)"ABCDEFG", Color);
 	
 	
 }
