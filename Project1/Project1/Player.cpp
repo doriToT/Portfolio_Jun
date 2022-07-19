@@ -57,7 +57,7 @@ void Player::Render()
 {
 
 	CursorManager::GetInstance()->WriteBuffer(
-		TransInfo.Position, (char*)"ABCDEFG", Color);
+		TransInfo.Position, (char*)"Player", Color);
 	
 	
 }

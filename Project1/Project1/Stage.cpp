@@ -16,6 +16,7 @@ void Stage::Initialize()
 	Object* pEnemyProto = new Enemy;
 	pEnemyProto->Initialize();
 
+
 	for (int i = 0; i < 5; ++i)
 	{
 		srand(DWORD(GetTickCount64() * (i + 1)));

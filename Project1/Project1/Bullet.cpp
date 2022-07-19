@@ -72,7 +72,7 @@ int Bullet::Update()
 void Bullet::Render()
 {
 	CursorManager::GetInstance()->WriteBuffer(
-		TransInfo.Position, (char*)"ABCDEFG");
+		TransInfo.Position, (char*)"*");
 	
 }
 
