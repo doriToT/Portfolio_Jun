@@ -24,3 +24,5 @@ void BackGround::Render()
 
 void BackGround::Release()
 {
+
+}

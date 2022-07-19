@@ -156,6 +156,9 @@
     <ClInclude Include="BackGround.h">
       <Filter>소스 파일\02.Object\BackGround</Filter>
     </ClInclude>
+    <ClInclude Include="MathManager.h">
+      <Filter>소스 파일\99.Manager\MathManager</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="MainUpdate.cpp">
